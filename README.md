@@ -1,8 +1,8 @@
 # back4app-custom-library
+Library for making HTTP requests to back4app. *With authentication*
 * Author - Iliyan Nikolaev M. 
 * Release date - Q4'23
 
-Library for making HTTP requests to back4app. *With authentication*
 *Inspired by the JS-Applications course at the Software Academy - [SoftUni](https://softuni.bg/).*
 
 ## Benefits of the library:
@@ -21,9 +21,9 @@ Creating and setting up an application in Back4app
 
 ### Part 2
 Create a file named constants.js or .env and place the variables inside:
-* APPID=...
-* JSKEY=...
-* B4AHOST=https://parseapi.back4app.com
+* APPID="..."
+* JSKEY="..."
+* B4AHOST="https://parseapi.back4app.com"
 
 IMPORTANT: If you are using an .env file, you will need to make minimal changes in the "b4aRequest.js" module to import the above-mentioned variables from the .env file.
 
